@@ -16,6 +16,6 @@ image = Image.open(IMAGE_PATH)
 results = model(image)
 
 # Save the image
-results.save(save_dir="images/results", labels=True, exist_ok=True)
+results.save(save_dir="assets/results", labels=True, exist_ok=True)
 
 print(results)
